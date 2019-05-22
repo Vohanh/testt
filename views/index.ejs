@@ -1,0 +1,20 @@
+<head>
+    <link rel='stylesheet' type='text/css' href='/nongsanxanh/assets/main.css'>
+</head>
+
+    <table id="table-detail">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% user.forEach(function(uuser){ %>
+            <tr>
+                <th><%=uuser.name%></th>
+                <td><%=uuser.class%></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>

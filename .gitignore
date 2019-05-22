@@ -1,1 +1,2 @@
-ECHO is on.
+Node_module/*
+package-lock.json
